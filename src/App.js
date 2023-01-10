@@ -13,6 +13,7 @@ const filterProducts = (filterTerm) => {
 }
 
 const App = () => {
+
   const [isPending, startTransition] = useTransition()
   const [filterTerm, setFilterTerm] = useState('')
 
